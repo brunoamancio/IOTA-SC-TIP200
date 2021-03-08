@@ -3,8 +3,8 @@ package iotascutils
 import (
 	"testing"
 
-	"github.com/brunoamancio/IOTA-SmartContracts/tests/testutils"
-	"github.com/brunoamancio/IOTA-SmartContracts/tests/testutils/testconstants"
+	"github.com/brunoamancio/IOTA-SC-ERC721/tests/testutils"
+	"github.com/brunoamancio/IOTA-SC-ERC721/tests/testutils/testconstants"
 	notsolo "github.com/brunoamancio/NotSolo"
 	"github.com/iotaledger/goshimmer/dapps/valuetransfers/packages/address/signaturescheme"
 )
