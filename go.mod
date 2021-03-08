@@ -1,4 +1,4 @@
-module github.com/brunoamancio/IOTA-SmartContracts
+module github.com/brunoamancio/IOTA-SC-ERC721
 
 go 1.16
 
