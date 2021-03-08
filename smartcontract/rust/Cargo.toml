@@ -1,12 +1,12 @@
   
 [package]
 edition = "2018"
-name = "my_iota_sc"
-description = "This is a smart contract for ISCP (IOTA Smart Contract Protocol)"
+name = "erc_721"
+description = "This is an implementation of the ERC-721 standard for ISCP (IOTA Smart Contract Protocol)"
 license = "MIT"
 version = "0.0.1"
-authors = ["Author name <author@email.address>"]
-repository = "https://github.com/user/project"
+authors = ["Th3B0Y"]
+repository = "https://github.com/brunoamancio/IOTA-SC-ERC721"
 
 [lib]
 crate-type = ["cdylib", "rlib"]

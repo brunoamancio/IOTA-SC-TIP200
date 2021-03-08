@@ -26,6 +26,6 @@ func TestLib(t *testing.T) {
 	// Uploads wasm of SC and deploys it into chain
 	notSolo.Chain.DeployWasmContract(chain, nil, testconstants.ContractName, contractWasmFilePath)
 
-	// Call contract 'my_iota_sc', function 'my_sc_function'
+	// Call contract 'erc_721', function 'my_sc_function'
 	notSolo.Request.MustPost(nil, chain, testconstants.ContractName, functionName)
 }

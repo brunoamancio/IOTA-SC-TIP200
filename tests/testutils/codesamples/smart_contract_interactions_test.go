@@ -38,7 +38,7 @@ func Test_CallSmartContract_PostRequest(t *testing.T) {
 	// Defines which contract and function will be called by chain.PostRequest
 	const functionName = "my_sc_function"
 
-	// Calls contract my_iota_sc, function my_sc_function
+	// Calls contract erc_721, function my_sc_function
 	notSolo.Request.MustPost(nil, chain, testconstants.ContractName, functionName)
 }
 
@@ -57,7 +57,7 @@ func Test_CallSmartContract_CallView(t *testing.T) {
 	// Defines which contract and function will be called by chain.PostRequest
 	const functionName = "my_sc_view"
 
-	// Calls contract my_iota_sc, function my_sc_view
+	// Calls contract erc_721, function my_sc_view
 	result := notSolo.Request.MustView(chain, testconstants.ContractName, functionName)
 	require.NotNil(t, result)
 }
@@ -95,7 +95,7 @@ func Test_ViewMyBoolean(t *testing.T) {
 			// Output parameter from sc view
 			const MatchesExpected = "matches_expected"
 
-			// Call contract 'my_iota_sc', function 'view_my_boolean'
+			// Call contract 'erc_721', function 'view_my_boolean'
 			response := notSolo.Request.MustView(chain, testconstants.ContractName, functionName, ParamHexadecimal, hexadecimalAsBytes)
 
 			// Get output parameter MatchesExpected
