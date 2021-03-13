@@ -15,10 +15,12 @@ crate-type = ["cdylib", "rlib"]
 default = ["console_error_panic_hook"]
 
 [dependencies]
-iota_sc_utils = { path = "iota_sc_utils" }
-wasmlib = { path = "wasp/contracts/rust/wasmlib" }
 console_error_panic_hook = { version = "0.1.6", optional = true }
 wee_alloc = { version = "0.4.5", optional = true }
+
+wasmlib = { path = "wasp/contracts/rust/wasmlib" }
+iota_sc_utils = { path = "iota_sc_utils" }
+iota-sc-hname-generator = "1.0.0"
 
 [dev-dependencies]
 wasm-bindgen-test = "0.3.13"
