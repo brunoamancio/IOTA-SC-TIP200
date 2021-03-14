@@ -1,7 +1,6 @@
 mod constants;
 
-use wasmlib::*;
-//use iota_sc_utils::*;
+use iota_sc_utils::wasmlib::ScExports;
 
 #[no_mangle]
 fn on_load() {
