@@ -1,12 +1,12 @@
   
 [package]
 edition = "2018"
-name = "erc_721"
+name = "tip_200"
 description = "This is an implementation of the ERC-721 standard for ISCP (IOTA Smart Contract Protocol)"
 license = "MIT"
 version = "0.0.1"
 authors = ["Th3B0Y"]
-repository = "https://github.com/brunoamancio/IOTA-SC-ERC721"
+repository = "https://github.com/brunoamancio/IOTA-SC-TIP200"
 
 [lib]
 crate-type = ["cdylib", "rlib"]

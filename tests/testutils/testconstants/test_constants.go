@@ -2,7 +2,7 @@ package testconstants
 
 const (
 	// ContractName is defined in smartcontract/rust/Cargo.toml > package > name
-	ContractName = "erc_721"
+	ContractName = "tip_200"
 	// Debug is used by Solo. 'true' for logging level 'debug', otherwise 'info'
 	Debug = false
 	// StackTrace is used by Solo. 'true' if stack trace must be printed in case of errors
