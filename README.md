@@ -19,7 +19,7 @@ This is a repository for myself but I welcome anyone interested in playing aroun
 - Open VSCode and a terminal in it (In the menu : Terminal > New Terminal)
 - In the terminal, clone your git repository:
 ```
-git clone https://github.com/brunoamancio/IOTA-SC-ERC721.git && cd IOTA-SC-ERC721
+git clone https://github.com/brunoamancio/IOTA-SC-TIP200.git && cd IOTA-SC-TIP200
 ```
 - In the terminal, initialize the wasp submodule with:
 ```
