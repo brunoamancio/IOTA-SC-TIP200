@@ -1,4 +1,4 @@
-## IOTA smart contracts - ERC-721
+## IOTA smart contracts - TIP-200
 
 This is a repository for myself but I welcome anyone interested in playing around with the current state of development of the IOTA Smart Contract Protocol (ISCP). Feel free to contact me on IOTA Foundation's discord server under Th3B0Y#8380.
 
